@@ -17,26 +17,36 @@ App uses a number of open source libraries to work properly:
 Commit Count App requires [Python](https://www.python.org/) v3.10 to run.
 
 Install the dependencies and devDependencies and start the server.
-```sh
+
 Clone the repository from
-https://github.com/ratheesh-h-nair/git-commit-count
-```
 ```sh
+git clone https://github.com/ratheesh-h-nair/git-commit-count
+```
 Run the below command to install the dependency library
-Run pip install -r requirements.txt (Python 2)
+
+For Windows Users
+```sh
+pip install -r requirements.txt (Python 3)
+```
+For Linux / Ubuntu Users
+```sh
 pip3 install -r requirements.txt (Python 3)
 ```
 
-```sh
 After installing Run through the command below
-python main.py(windows)
+For Windows
+```sh
+python main.py
+```
+
+For Linux / Ubuntu
+```sh
 python3 main.py(Ubuntu/Linux)
 ```
 
-```sh
 As mentioned it is a API based Application you need Postman to access the API
 You can download the Postman App from https://www.postman.com/
-```
+
 Verify the development serever by navigating to your server address in
 your preferred browser.
 
