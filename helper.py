@@ -65,6 +65,7 @@ def get_repo_list(n,m):
                         '''In case of any error happened on the response of any particular repo. That repo can be excluded from the listing'''
                         pass
                 item['commit_count'] = sorted(user_count, key=lambda d: d['commit_count'], reverse=True)
+                item['commit_count'] =  item['commit_count'][:m]
             else:
                 ''' In case of repo listing API having any error. The error msg will be returned as response'''
                 return failed_response(response.text)
