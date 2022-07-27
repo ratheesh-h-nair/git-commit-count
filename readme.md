@@ -1,5 +1,5 @@
 # Commit count on most popular repos in github
-## The App providews the most commit count on most popular repos in github
+## The App provides the most commit count on most popular repos in github
 
 The App is basically an API provides the most popular Repos and it commit count based on user wise in descending order
 
@@ -41,7 +41,7 @@ python main.py
 
 For Linux / Ubuntu
 ```sh
-python3 main.py(Ubuntu/Linux)
+python3 main.py
 ```
 
 As mentioned it is a API based Application you need Postman to access the API
